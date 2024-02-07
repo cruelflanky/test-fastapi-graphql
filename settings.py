@@ -1,5 +1,8 @@
 import pydantic
+from dotenv import load_dotenv
 from pydantic_settings import BaseSettings
+
+load_dotenv()  # Это загрузит переменные окружения из .env файла
 
 
 class Settings(BaseSettings):

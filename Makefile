@@ -1,3 +1,6 @@
+include .env
+export
+
 run:
 	poetry run uvicorn schema:app --reload
 
